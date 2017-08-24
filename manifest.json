@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "华文慕课视频页面修改器",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["http://www.chinesemooc.org/live/*",
+            "http://www.chinesemooc.org/course.php*"],
+            "js": ["page-eater.js"]
+        }
+    ]
+}
